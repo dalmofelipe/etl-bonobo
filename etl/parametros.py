@@ -1,6 +1,6 @@
 
 
-def passicional_args_nomedo_kargs(a, b = 0, *args, c = 3, d = 4, funcao = "nomeado", **kargs):
+def posicional_args_nomeado_kargs(a, b = 0, *args, c = 3, d = 4, funcao = "nomeado", **kargs):
     """
     parametros possicionais (a) são obrigatorios!
     """
@@ -19,4 +19,4 @@ if __name__ == '__main__':
         'ammount': 4200
     }
 
-    passicional_args_nomedo_kargs(22, 44, 55, kargs_params, d=222, c = 99, funcao='programador')
+    posicional_args_nomeado_kargs(22, 44, 55, kargs_params, d=222, c = 99, funcao='programador')
