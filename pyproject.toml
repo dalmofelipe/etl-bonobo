@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "etl-bonobo"
+version = "0.1.0"
+description = ""
+authors = ["Dalmo Felipe <dalmofelipe.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "etl_bonobo"}]
+
+[tool.poetry.dependencies]
+python = "3.9.15"
+bonobo = {extras = ["all"], version = "^0.6.4"}
+markupsafe = "2.0.1"
+requests-cache = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
